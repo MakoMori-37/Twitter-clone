@@ -1,0 +1,94 @@
+.feed{
+    flex:0.5;
+    width: 100%;
+    border-right: 0.5px solid #cdd1d3;    
+    border-left: 0.5px solid #cdd1d3;     
+    overflow-y: scroll;
+    padding-right: 15px;
+}
+
+::-webkit-scrollbar{ display: none;}
+
+.feedhome{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #cdd1d3;
+    height: 30px;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.feed__inpu{
+    display: flex;
+    height: 160px;
+    width: 100%;
+    border-bottom: 8px solid rgb(238, 234, 234);
+}
+
+.display{
+    padding: 10px 10px;
+    flex: 0.1;
+}
+
+.display > img {
+        height: 55px;
+        width: 55px;
+        border-radius: 50px;
+        object-fit: cover;
+
+}
+
+.finput{
+    flex: 0.9;
+    
+}
+
+.finput > input {
+    height: 50px;
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+}
+
+.finput :focus{
+    outline: none;
+}
+
+.privacy{
+    display: flex;
+    align-items: center;
+    color: #1DA1F2;
+}
+
+.privacy > small{
+    margin-left: 10px;
+}
+
+.under{
+    width: 100%;
+    margin: 10px 0;
+    border-top: 1px solid rgb(199, 196, 196);
+}
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    color:#1DA1F2 ;
+    align-items: center;
+}
+
+.action__icon > .MuiSvgIcon-root{
+    margin-right: 15px;
+}
+
+.action > button {
+    padding: 10px 16px;
+    border-radius: 999px;
+    background-color: #1DA1F2;
+    border: none;
+    color: white;
+    font-weight: 900;
+    margin-right: 15px;
+    box-shadow: 0.5px 0.5px rgb(133, 129, 129) ;
+}

@@ -1,0 +1,73 @@
+.widget{
+    flex: 0.25;
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+
+.search{
+    width: 320px;
+    height: 40px;
+    border-radius: 999px;
+    border: none;
+    background-color: rgb(223, 226, 226);
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+
+
+.search > .MuiSvgIcon-root{
+    margin-left: 10px;
+}
+
+.search > input {
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.search :focus{
+    outline: none;
+}
+
+.trend{
+    background-color: rgb(240, 245, 245);
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 320px;
+}
+
+.trend1:hover{
+    background-color: rgb(227, 231, 231);
+}
+
+.trend__head{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 8px;
+    padding: 7px 0;
+}
+
+.trend1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 8px;
+    border-top: 1px solid rgb(228, 226, 226) ;
+    color: gray;
+}
+
+.trend__left > p{
+    font-weight: 600;
+    padding: 3px 0;
+    color: black !important ;
+}
+
+.trend__footer{
+    border-top: 1px solid rgb(228, 226, 226) ;
+    padding: 10px 0 10px 15px;
+    color: #1DA1F2;
+}

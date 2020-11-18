@@ -1,0 +1,35 @@
+.sidebar__con{
+    flex: 0.25;
+    width: 320px;
+  
+}
+
+.sidebar__con > .MuiSvgIcon-root{
+    color: #1DA1F2 !important ;
+    padding: 15px 45px;
+    font-size: 35px;
+    
+}
+
+.sidebar__con > button{
+    width: 80%;
+    background-color: #1DA1F2;
+    border-radius: 999px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin: 15px 45px ;
+    
+    
+}
+
+.sidebar__con > button:hover{
+    background-color: #0395f0;
+
+}
+
+.sidebar__con :focus{
+    outline: none;
+    border: none;
+}

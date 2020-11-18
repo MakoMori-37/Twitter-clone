@@ -1,0 +1,36 @@
+.sfooter{
+    display: flex;
+    justify-content: space-between;
+   background-color: #F5F8FA;
+    border-radius: 999px;
+    width: 70%;
+    height: 2rem;
+    align-items: center;
+    padding: 10px 10px;
+    margin-top: 150px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.sfooter:hover{
+    background-color: #E1E8ED;
+}
+
+.dfooter > img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.dfooter{
+    display: flex;
+    
+    align-items: center;
+}
+
+.dfooter  p {
+    color: gray;
+    font-size: 13px;
+}

@@ -1,0 +1,19 @@
+.sidemenu__con{
+    display: flex;
+    align-items: center;
+    padding: 15px 45px;
+    cursor: pointer;
+}
+
+.sidemenu__con > h2 {
+    margin-left: 25px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.sidemenu__con:hover {
+    color: #1DA1F2;
+    background-color: #d6e9f3;
+    border-radius: 999px;
+    
+}
